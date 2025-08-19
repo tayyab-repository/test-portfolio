@@ -1,0 +1,188 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #725171;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    right: 150px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+}
+.navbar{
+    width: 1200px;
+    height: 100px;
+    background: linear-gradient(to top, #ccc, #eb7bd3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    border: 0px solid white;
+    border-radius: 50px;
+}
+
+.navbar a{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    margin: -100px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 800;
+    background-color: #ccc;
+    border-radius: 30px;
+    background: transparent;
+    transition: ease 1s;
+}
+.navbar a:hover{
+    color: #eb7bd3;
+    background-color: #ccc;
+}
+.portfolio-home{
+    width: 1200px;
+    height: 600px;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+    background: linear-gradient(180deg, #ccc, #eb7bd3);
+}
+.portfolio-home h1{
+    position: relative;
+    top: 180px;
+    right: 300px;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.portfolio-home h3{
+    position: relative;
+    top: 140px;
+    right: 300px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.portfolio-home img{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    top: -280px;
+    right: -250px;
+    mix-blend-mode: multiply;
+    filter: drop-shadow(200px 400px 100px #ccc);
+}
+.portfolio-home button{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -420px;
+    right: 120px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color: black;
+    border: 0px solid black;
+    background: transparent;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+.portfolio-home button:hover{
+    color: #ccc;
+    background: linear-gradient(180deg, #ccc, #eb7bd3);
+    
+}
+.projects-home{
+    width: 1200px;
+    height: 500px;
+    background: linear-gradient(180deg, #eb7bd3, #ccc);
+    position: relative;
+    top: 45px;
+    border-radius: 50px;
+}
+.projects-home h2{
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 20px;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: -60px;
+    left: 150px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    transition: ease 2s;
+    cursor: pointer;
+}
+.projects-home h2:hover{
+    color: #eb7bd3;
+    background-color: #ccc;
+}
+.projects-home img{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    box-shadow: 0 0 10px #ccc, 0 0 20px #ccc, 0 0 40px #ccc;
+    transition: ease 2s;
+}
+.projects-home img:hover{
+    width: 360px;
+    height: 200px;
+}
+.projects-about{
+    width: 1200px;
+    height: 500px;
+    background: linear-gradient(180deg, #ccc, #eb7bd3);
+    position: relative;
+    top: 65px;
+    border-radius: 50px;
+    align-content: center;
+}
+.projects-about h1{
+    position: relative;
+    top: 25px;
+}
+.projects-about p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projects-about ul{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact{
+    width: 1200px;
+    height: 100px;
+    background: linear-gradient(to top, #eb7bd3, #ccc);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border: 0px solid white;
+    border-radius: 50px;
+}
+.contact i{
+    font-size: 40px;
+    color: #ccc;
+    cursor: pointer;
+    transition: ease 1s;
+    background: none;
+    border: none;
+}
+.contact i:hover{
+    font-size: 50px;
+    color: black;
+    background: none;
+}
