@@ -1,0 +1,110 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ccc;
+}
+.username-form{
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    border-top: 10px solid rgb(145, 47, 145);
+    display: flex;
+    justify-content: center;
+}
+.username-form1{
+    width: 500px;
+    height: 120px;
+    background-color:white;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.username-form1 label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 22px;
+    left: 40px;
+}
+.username-form1 input{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+.username-form2{
+    width: 500px;
+    height: 120px;
+    background-color:white;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.username-form2 label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 22px;
+    left: 40px;
+}
+.username-form2 input{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+.username-form3{
+    width: 500px;
+    height: 120px;
+    background-color:white;
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.username-form3 label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 22px;
+    left: 40px;
+}
+.username-form3 input{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: -20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+button{
+    width: 130px;
+    height: 60px;
+    margin: 10px;
+    position: relative;
+    top: 80px;
+    left: -186px;
+    font-size: 25px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(145, 47, 145);
+    color: white;
+    font-weight: 530;
+    cursor: pointer;
+}

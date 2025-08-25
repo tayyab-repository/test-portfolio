@@ -1,0 +1,513 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ccc;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.paypal-header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paypal-header > a{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+}
+.paypal-header > a > img{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    position: relative;
+    right: 80px;
+    transition: all 0.2s;
+    border: 0px solid white;
+}
+.paypal-header > a > img:hover{
+    border-radius: 10px;
+    border: 2px solid #003087;
+}
+.paypal-header > h3{
+    width: 120px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    right: 30px;
+    margin: 0 10px 0 10px;
+    font-family:  Helvetica;
+    color: #003087 ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.paypal-header  h4{
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+    font-family: helvetica;
+    font-weight: 300;
+    color: #003087;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s; 
+}
+.paypal-header  h4:hover{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color: #003087;
+}
+.paypal-header > h3:hover{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #003087;
+    border-radius: 20px;
+    background-color: #e3f9fe;
+    font-weight: 550;
+}
+.paypal-header > h3 > i{
+    font-size: 13px;
+}
+.paypal-header > button{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    right: -100px;
+    font-size: 22px;
+    font-family: helvetica;
+    font-weight: 300;
+    margin: 0 15px 0 15px;
+    background-color: white;
+    border: 2px solid #003087;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+.paypal-header > button:hover{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #003087;
+    color: white;
+}
+.paypal-hero{
+    width: 100%;
+    height: 600px;
+    background-color: #003087;
+    color: white;
+}
+.paypal-hero > img{
+    width: 100%;
+    height:400px;
+    background-color: #c6c8cb;
+    position: absolute;
+    top:300px;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    mix-blend-mode: multiply; 
+    opacity: 0.5;
+}
+.paypal-hero1{
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+    background-color: transparent;
+}
+.paypal-hero1 > h1{
+    font-size: 50px;  
+}
+.paypal-hero1 > h1,p{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    margin: 30px 10px 30px 10px;
+}
+.paypal-hero1 > p{
+    font-size: 25px;  
+}
+.paypal-hero1 > img{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 36px;
+    background-size: cover;
+    color: #c6c8cb;
+}
+.paypal-hero1 > a{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 207px;
+    left: 130px;
+}
+.paypal-link{
+    width: 450px;
+    height: 350px;
+    background-color: #c6c8cb;
+    position: relative;
+    top: -350px;
+    left: 250px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.paypal-link > p{
+    width: 2px;
+    height: 300px;
+    background-color: #ccc;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+.fa-mobile{
+    font-size: 30px;
+}
+.input{
+    width: 265px;
+    height: 60px;
+    font-size: 17px;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 40px;
+    line-height: 50px;
+    outline: none;
+    transition: ease 0.6s;
+}
+.input::placeholder {
+      color: gray;
+      transition: 0.3s ease;
+      transform: translateY(0);
+}
+.input:hover::placeholder
+     {
+      transform: translateY(-18px);
+      font-size: 12px;
+      color: #003087;
+    }
+.fa-mobile{
+    font-size: 20px;
+    color: #003087;
+    position: absolute;
+    top: 71px;
+    left: 100px;
+    z-index: 1;
+}
+.paypal-link > button{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    right: 247px;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(249, 184, 34);
+    margin: 30px 0 10px 0;
+    cursor: pointer;
+    transition: ease 1s;
+}
+.paypal-link > button:hover{
+    color: #003087;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(249, 184, 34);
+}
+.paypal-link > pre{
+    font-size: 12px;
+    position: absolute;
+    top: 170px;
+}
+.paypal-hr{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    font-size: 20px;
+}
+.paypal-hr > h3{
+    display: flex;
+    justify-content: center;
+}
+.paypal-hr > hr{
+    position: relative;
+    top: 30px;
+}
+.paypal-product{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.img >img{
+    width: 488px;
+    height: 464px;
+    position: relative;
+    top: 120px;
+    right: 50px;
+}
+.description{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 200px;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.description > h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.description > h3{
+    margin: 10px;
+    color: #515151;
+    position: relative;
+    left: -9px;
+}
+.description > h4{
+    color: #003087;
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+.description > h4:hover{
+    color: black;
+    text-decoration: underline;
+}
+.description1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: -20px;
+}
+.img1 > img{
+    width: 484px;
+    height: 464px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.description1 > h1{
+    font-size: 52px;
+    font-weight: 100;
+}
+.description1 > h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.description1 > h4{
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+.description1 > h5{
+    font-size: 20px;
+    color: #003087;
+    cursor: pointer;
+    transition: all 2s;
+}
+.description1 > h5:hover{
+    color: black;
+    text-decoration: underline;
+}
+.description2{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.description2 > h1{
+    font-size: 53px;
+    font-weight: 100;
+}
+.description2 > h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(41, 41, 41);
+}
+.img2 > img{
+    width: 488px;
+    height: 369px;
+    position: relative;
+    left: -40px;
+}
+.description2 > h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #003087;
+}
+.description2 > h4:hover{
+    color: black;
+    text-decoration: underline;
+}
+.img3 > img{
+    width: 488px;
+    height: 361px;
+}
+.paypal-ads{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.paypal-ads > h1{
+    font-size: 48px;
+    font-family: arial;
+    font-weight: 100;
+    position: relative;
+    left: -40px;
+}
+.images{
+    width: 700px;
+    height: 350px;
+    background-color: #ffffff;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+.images > img{
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+}
+.paypal-sign{
+    width: 100%;
+    height: 400px;
+    background-color: #003087;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paypal-sign > pre{
+    font-size: 20px;
+    font-family: areal;
+    color: rgb(255, 255, 255);
+}
+.paypal-sign  > button{
+    width: 250px;
+    padding: 20px 0px 20px 0px;
+    color: #ffffff;
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.paypal-sign  > button:hover{
+    color: white;
+    background-color: #003087;
+    box-shadow: 0 0 30px rgb(249, 184, 34) ;
+}
+.paypal-id{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px 0 60px;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 200;
+    color: #494949;
+}
+.paypal-id > h3{
+    font-size: 13px;
+    position: relative;
+    top: -20px;
+}
+.paypal-bottom{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.paypal-imgs{
+    width: 1000px;
+    height: 350px;
+    display: block;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 80px 20px 80px;
+}
+.svg{
+    width: 12.07rem;
+    height: 3.2rem;
+    position: relative;
+    top: -50px;
+}
+.paypal-imgs > a{
+    margin: 10px;
+    text-decoration: none;
+    margin-left: -10px;
+    padding: 0 20px 0 10px;
+    color: #003087;
+    font-weight: 600;
+}
+.fa-earth-americas{
+    font-size: 23px;
+    position: relative;
+    left: 280px;
+    color: #003087;
+}
+.paypal-imgs > h4 > a{
+    padding: 0 20px 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+}

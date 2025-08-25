@@ -1,0 +1,45 @@
+body{
+    margin: 20px;
+    padding: 0%;
+    background-color: rgb(185, 182, 182);
+    display: flex;
+    justify-content: center;
+}
+.resume{
+    width: 1000px;
+    height: 1650px;
+    margin: 20px,50px,20px,50px;
+    padding: 50px;
+    background-color:#fff;
+    display: block;
+}
+.resume h1{
+    font-size: 47px;
+    text-align: center;
+    color:rgb(64, 62, 62);
+}
+.resume h3{
+    font-size: 19px;
+    text-align: center;
+}
+.resume h4{
+    
+    text-align: center;
+}
+.resume p{
+    font-size: 18px;
+}
+.resume h2{
+    font-size: 32px;
+}
+.resume h5{
+    font-size: 22px;
+}
+.resume h6{
+    font-size: 22px;
+    position: relative;
+    top: -35px;
+}
+.resume pre{
+    font-family:"Times New Roman", Times, serif ;
+}
